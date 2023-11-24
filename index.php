@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -8,7 +7,7 @@
     <title>Ваше портфоліо</title>
 </head>
 <body>
-    <!-- панель bootstrap -->
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">Моє портфоліо</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,9 +31,6 @@
         </div>
     </nav>
 
-    <label for="customRange3" class="form-label">Example range</label>
-    <input type="range" class="form-range" min="0" max="5" step="0.5" id="customRange3">
-
     <div class="container mt-5">
         <div class="row">
             <div class="col-md-6 offset-md-3">
@@ -42,6 +38,8 @@
                     <img src="img\ava.png" class="card-img-top mx-auto d-block img-fluid" style="width: 300px; height: 300px;"><div class="card-body">
                         <h5 class="card-title">Strilak</h5>
                         <p class="card-text">Тут типу інформація про мене</p>
+                        <label for="customRange3" class="form-label">Використання Бутстрап</label>
+                        <input type="range" class="form-range" min="0" max="5" step="0.5" id="customRange3">
                     </div>
                 </div>
             </div>
@@ -49,7 +47,5 @@
     </div>
 </body>
 
-<footer class="bg-dark text-white text-center py-3">
-        <p>футер</p>
-    </footer>
+
 </html>
